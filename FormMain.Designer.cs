@@ -30,71 +30,64 @@
         {
             this.buttonTimKiem = new System.Windows.Forms.Button();
             this.textBoxTimKiem = new System.Windows.Forms.TextBox();
+            this.dataGridViewmain = new System.Windows.Forms.DataGridView();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.nhậpKhoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.xuấtKhoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.chỉnhSửaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quảnLýToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sắpXếpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sốLượngTăngDầnToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sốLượngGiảmDầnToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewmain)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonTimKiem
             // 
-            this.buttonTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonTimKiem.Location = new System.Drawing.Point(924, 4);
+            this.buttonTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonTimKiem.Location = new System.Drawing.Point(899, 6);
             this.buttonTimKiem.Name = "buttonTimKiem";
             this.buttonTimKiem.Size = new System.Drawing.Size(54, 33);
             this.buttonTimKiem.TabIndex = 2;
             this.buttonTimKiem.Text = "Tìm";
             this.buttonTimKiem.UseVisualStyleBackColor = true;
+            //this.buttonTimKiem.Click += new System.EventHandler(this.buttonTimKiem_Click);
             // 
             // textBoxTimKiem
             // 
-            this.textBoxTimKiem.Location = new System.Drawing.Point(780, 15);
+            this.textBoxTimKiem.Location = new System.Drawing.Point(755, 12);
             this.textBoxTimKiem.Name = "textBoxTimKiem";
             this.textBoxTimKiem.Size = new System.Drawing.Size(138, 22);
             this.textBoxTimKiem.TabIndex = 1;
+            // 
+            // dataGridViewmain
+            // 
+            this.dataGridViewmain.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridViewmain.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewmain.Location = new System.Drawing.Point(12, 50);
+            this.dataGridViewmain.Name = "dataGridViewmain";
+            this.dataGridViewmain.RowTemplate.Height = 24;
+            this.dataGridViewmain.Size = new System.Drawing.Size(941, 347);
+            this.dataGridViewmain.TabIndex = 12;
             // 
             // menuStrip2
             // 
             this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nhậpKhoToolStripMenuItem,
-            this.xuấtKhoToolStripMenuItem,
-            this.chỉnhSửaToolStripMenuItem,
+            this.quảnLýToolStripMenuItem,
             this.sắpXếpToolStripMenuItem1});
             this.menuStrip2.Location = new System.Drawing.Point(1, -1);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(490, 31);
+            this.menuStrip2.Size = new System.Drawing.Size(174, 31);
             this.menuStrip2.TabIndex = 8;
             this.menuStrip2.Text = "menuStrip2";
             // 
-            // nhậpKhoToolStripMenuItem
+            // quảnLýToolStripMenuItem
             // 
-            this.nhậpKhoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nhậpKhoToolStripMenuItem.Name = "nhậpKhoToolStripMenuItem";
-            this.nhậpKhoToolStripMenuItem.Size = new System.Drawing.Size(97, 27);
-            this.nhậpKhoToolStripMenuItem.Text = "Nhập kho";
-            this.nhậpKhoToolStripMenuItem.Click += new System.EventHandler(this.nhậpKhoToolStripMenuItem_Click);
-            // 
-            // xuấtKhoToolStripMenuItem
-            // 
-            this.xuấtKhoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xuấtKhoToolStripMenuItem.Name = "xuấtKhoToolStripMenuItem";
-            this.xuấtKhoToolStripMenuItem.Size = new System.Drawing.Size(90, 27);
-            this.xuấtKhoToolStripMenuItem.Text = "Xuất kho";
-            this.xuấtKhoToolStripMenuItem.Click += new System.EventHandler(this.xuấtKhoToolStripMenuItem_Click);
-            // 
-            // chỉnhSửaToolStripMenuItem
-            // 
-            this.chỉnhSửaToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chỉnhSửaToolStripMenuItem.Name = "chỉnhSửaToolStripMenuItem";
-            this.chỉnhSửaToolStripMenuItem.Size = new System.Drawing.Size(98, 27);
-            this.chỉnhSửaToolStripMenuItem.Text = "Chỉnh sửa";
-            this.chỉnhSửaToolStripMenuItem.Click += new System.EventHandler(this.chỉnhSửaToolStripMenuItem_Click);
+            this.quảnLýToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quảnLýToolStripMenuItem.Name = "quảnLýToolStripMenuItem";
+            this.quảnLýToolStripMenuItem.Size = new System.Drawing.Size(84, 27);
+            this.quảnLýToolStripMenuItem.Text = "Quản Lý";
+            this.quảnLýToolStripMenuItem.Click += new System.EventHandler(this.quảnLýToolStripMenuItem_Click);
             // 
             // sắpXếpToolStripMenuItem1
             // 
@@ -122,14 +115,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(990, 564);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(963, 408);
+            this.Controls.Add(this.dataGridViewmain);
             this.Controls.Add(this.buttonTimKiem);
             this.Controls.Add(this.textBoxTimKiem);
             this.Controls.Add(this.menuStrip2);
-            this.IsMdiContainer = true;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý kho nguyên liệu";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
+            this.Load += new System.EventHandler(this.FormMain_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewmain)).EndInit();
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
@@ -141,13 +138,12 @@
 
         private System.Windows.Forms.Button buttonTimKiem;
         private System.Windows.Forms.TextBox textBoxTimKiem;
+        private System.Windows.Forms.DataGridView dataGridViewmain;
         private System.Windows.Forms.MenuStrip menuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem nhậpKhoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem xuấtKhoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem chỉnhSửaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sắpXếpToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem sốLượngTăngDầnToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem sốLượngGiảmDầnToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem quảnLýToolStripMenuItem;
     }
 }
 
